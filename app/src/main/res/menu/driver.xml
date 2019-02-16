@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:id="@+id/group">
+        <item
+            android:id="@+id/action_details"
+            android:orderInCategory="100"
+            android:title="current ride details"
+            app:showAsAction="never">
+            <menu>
+                <item
+                    android:id="@+id/action_source"
+                    android:orderInCategory="100"
+                    android:title="@string/action_settings"
+                    app:showAsAction="never"
+                    android:enabled="false">
+                </item>
+                <item
+                    android:id="@+id/action_dest"
+                    android:orderInCategory="100"
+                    android:title="@string/action_settings"
+                    app:showAsAction="never"
+                    android:enabled="false">
+                </item>
+            </menu>
+        </item>
+    <item
+        android:id="@+id/action_start"
+        android:orderInCategory="100"
+        android:title="click to start ride"
+        app:showAsAction="never" >
+    </item>
+    <item
+        android:id="@+id/action_end"
+        android:orderInCategory="100"
+        android:title="click to end ride"
+        app:showAsAction="never" >
+    </item>
+    </group>
+</menu>

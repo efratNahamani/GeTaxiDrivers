@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".controller.myRideDetailsFragment">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#FFF"
+        android:weightSum="1">
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="0.5"
+            android:weightSum="1">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.8"
+                android:orientation="vertical"
+                android:weightSum="1"
+                android:layout_gravity="center">
+                <TextView
+                    android:id="@+id/details_my_ride_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text=""
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center_vertical"
+                    android:textSize="16dp"/>
+                <TextView
+                    android:id="@+id/details_my_ride_status"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="16dp"/>
+                <TextView
+                    android:id="@+id/details_my_ride_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="17dp"/>
+
+                <TextView
+                    android:id="@+id/details_my_ride_start_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:gravity="center_vertical"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="16dp"/>
+                <TextView
+                    android:id="@+id/details_my_ride_end_time"
+                    android:gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:layout_marginLeft="5dp"
+                    android:textSize="16dp"/>
+
+
+                <TextView
+                    android:id="@+id/details_my_ride_source"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text=""
+                    android:textStyle="bold"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="18dp"/>
+
+                <TextView
+                    android:id="@+id/details_my_ride_dest"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text=""
+                    android:textStyle="bold"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="18dp"/>
+                <TextView
+                android:id="@+id/details_my_ride_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                android:text=""
+                    android:layout_marginLeft="5dp"
+                android:textSize="16dp"/>
+                <TextView
+                    android:id="@+id/details_my_ride_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text=""
+                    android:layout_marginLeft="5dp"
+                    android:textSize="16dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>
+
+</FrameLayout>

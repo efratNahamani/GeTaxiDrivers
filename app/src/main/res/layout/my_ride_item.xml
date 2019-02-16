@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:textAppearance="?android:attr/textAppearanceListItemSmall"
+        android:weightSum="1">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <LinearLayout
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.25"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:layout_width="50dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.45"
+                    android:background="@drawable/myride"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.2"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+
+                    <Button
+                        android:id="@+id/button_my_add_contact"
+                        android:layout_width="32dp"
+
+                        android:layout_height="33dp"
+                        android:layout_marginLeft="30dp"
+
+                        android:background="@drawable/add_contact_blue"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.8"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/name_my_ride_item"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Efrat Nahamani"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+                <!--android:layout_weight="0.1"-->
+
+
+                <TextView
+                    android:id="@+id/date_my_ride_item"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="10/01/2019"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:id="@+id/source_my_ride_item"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="From Beit Shemesh"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:id="@+id/dest_my_ride_item"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="To Kiryat Malachi"
+                    android:textSize="17dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
+
+
+
+
+<!--protected long id;
+    protected RIDESTATUS rideStatus;
+    protected String sourceLocation;
+    protected String destinationLocation;
+    //protected Date beginningTime;
+    //protected Date endTime;
+    protected String clientName;
+    protected String clientPhone;
+    protected String clientEmail;
+    //protected long idDriver;
+-->
